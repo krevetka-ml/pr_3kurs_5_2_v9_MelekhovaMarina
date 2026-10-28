@@ -1,0 +1,37 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <style name="Base.Theme._5_2_Melekhova" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/red</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorSecondary">@color/gold</item>
+        <item name="android:statusBarColor">@color/bg_start</item>
+        <item name="android:windowBackground">@drawable/bg_gradient</item>
+    </style>
+
+    <style name="AppButton" parent="Widget.MaterialComponents.Button">
+        <item name="backgroundTint">@drawable/bg_input</item>
+        <item name="android:padding">14dp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textColorHint">@color/hint</item>
+    </style>
+
+    <style name="AppButtonGold" parent="Widget.MaterialComponents.Button">
+        <item name="backgroundTint">@color/gold</item>
+        <item name="android:textColor">@color/bg_end</item>
+        <item name="cornerRadius">24dp</item>
+    </style>
+
+    <style name="AppButtonText" parent="Widget.MaterialComponents.Button.TextButton">
+        <item name="android:textColor">@color/gold</item>
+    </style>
+
+    <style name="AppInput" parent="">
+        <item name="android:background">@drawable/bg_input</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textColorHint">@color/hint</item>
+        <item name="android:padding">14dp</item>
+        <item name="android:drawablePadding">10dp</item>
+        <item name="android:singleLine">true</item>
+    </style>
+
+    <style name="Theme._5_2_Melekhova" parent="Base.Theme._5_2_Melekhova" />
+</resources>
